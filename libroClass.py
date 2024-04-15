@@ -21,6 +21,5 @@ class Libro:
     def getEstado(self):
         return self.estado
 
-
-class Socio:
-    def __init__(self):
+    def setAutor(self, autor):
+        self_autor = autor
