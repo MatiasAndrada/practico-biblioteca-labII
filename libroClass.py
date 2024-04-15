@@ -8,7 +8,7 @@ class Libro:
         self.genero = genero
         self.estado = estado
 # Métodos de la clase
-    # Método _str__
+    # Método __str__
     # Usado para retornar todas propiedades del objeto
 
     def __str__(self):
