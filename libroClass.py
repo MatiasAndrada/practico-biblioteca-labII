@@ -6,6 +6,9 @@ class Libro:
         self.genero = genero
         self.estado = estado
 
+    def getLibro(self):
+        return self
+
     def getTitulo(self):
         return self.Titulo
 
@@ -21,5 +24,8 @@ class Libro:
     def getEstado(self):
         return self.estado
 
-    def setAutor(self, autor):
-        self_autor = autor
+    def setTitulo(self, titulo):
+        if type(titulo) == str:
+            self.titulo = titulo
+        else:
+            print("ERROR")

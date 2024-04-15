@@ -1,5 +1,5 @@
 class Socio:
-    def _init_(self, dni, nombre, apellido, direccion, correo, cuota):
+    def __init__(self, dni, nombre, apellido, direccion, correo, cuota):
         self.dni = dni
         self.nombre = nombre
         self.apellido = apellido
