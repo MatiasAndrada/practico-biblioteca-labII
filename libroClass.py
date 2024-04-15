@@ -1,4 +1,6 @@
+# Definición de la clase
 class Libro:
+    # Método constructor de la clase
     def __init__(self, titulo, autor, fecha, genero, estado):
         self.titulo = titulo
         self.autor = autor
