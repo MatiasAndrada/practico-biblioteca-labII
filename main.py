@@ -7,9 +7,8 @@ def main():
     socio1 = Socio(46234324, "Diego", "Grande", "Veneranda",
                    "DiegoAmarok2024@volsvagen.com", "Vencida")
     print(libro1.autor)
-    print(libro1.titulo)
-    libro1.setTitulo("Nueva evangelio")
-    print(libro1.titulo)
+    libro1.__str__()
+
     print(socio1.apellido)
 
 

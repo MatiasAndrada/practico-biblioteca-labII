@@ -6,8 +6,9 @@ class Libro:
         self.genero = genero
         self.estado = estado
 
-    def getLibro(self):
-        return self
+    def __str__(self):
+        print(f"Nombre: {self.titulo} \n Autor: {self.autor} \n Fecha: {
+            self.fecha} \n Genero: {self.genero} \n Estado: {self.estado}")
 
     def getTitulo(self):
         return self.Titulo
