@@ -1,12 +1,14 @@
 # Definición de la clase
 class Libro:
-    # Método constructor de la clase
+    # Método CONSTRUCTOR de la clase
     def __init__(self, titulo, autor, fecha, genero, estado):
         self.titulo = titulo
         self.autor = autor
         self.fecha = fecha
         self.genero = genero
         self.estado = estado
+# Métodos de la clase
+    # Esta clase es usada para retornar todas propiedades del objeto
 
     def __str__(self):
         print(f"Nombre: {self.titulo} \n Autor: {self.autor} \n Fecha: {
