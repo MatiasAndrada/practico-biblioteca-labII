@@ -1,11 +1,10 @@
 class Libro:
-    def __init__(self, titulo, autor, fecha, genero, estado):
-        self.titulo = titulo
-        self.autor = autor
-        self.fecha = fecha
-        self.genero = genero
-        self.estado = estado
-
+    def __init__(self, t, a, f, g, e):
+        self.titulo = t
+        self.autor = a
+        self.fecha = f
+        self.genero = g
+        self.estado = e
     def getTitulo(self):
         return self.Titulo
 
@@ -24,3 +23,4 @@ class Libro:
 
 class Socio:
     def __init__(self):
+        pass
