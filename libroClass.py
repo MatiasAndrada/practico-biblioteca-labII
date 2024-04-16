@@ -9,17 +9,14 @@ class Libro:
         self.estado = estado
 # Métodos de la clase
     # Método __str__
-    # Usado para retornar todas propiedades del objeto
-
     def __str__(self):
-        print(f"Nombre: {self.titulo} \n Autor: {self.autor} \n Fecha: {
-            self.fecha} \n Genero: {self.genero} \n Estado: {self.estado}")
+        print(f"Nombre: {self.titulo} \n Autor: {self.autor} \n Fecha: {self.fecha} \n Genero: {self.genero} \n Estado: {self.estado}")
 
     def getTitulo(self):
-        return self.Titulo
+        return self.titulo
 
     def getAutor(self):
-        return self.Autor
+        return self.autor
 
     def getFecha(self):
         return self.fecha
